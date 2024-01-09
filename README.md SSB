@@ -1,5 +1,5 @@
 #!/usr/bin/python
-#Original written By Muhmmad Sarfraz
+#Original written By Rabah chawi
 
 import os,zlib
 
@@ -89,7 +89,7 @@ logo =                                          """
 \033[1;37m Facebook:            Muhammad Sarfraz
 \033[1;37m Github  :            Sarfraz-Ssb
 \033[1;37m Version :            19.8
-\033[1;37m------------------------------------------------ """
+'https://www.facebook.com/profile.php?id=100049277964296033[1;37m------------------------------------------------ """
 def clear():
     os.system("clear")
     print(logo)    
@@ -112,13 +112,6 @@ def sarfraz():
     print(f'[2] Public ID Crack')
     print(f'[3] Random Crack ')
     print(f'[4] Create File')
-    print(f'[5] Login Tool')
-    print(f'[6] Logout Cookie')
-    print(f'[7] Remove Trash Files ')
-    print(f'[8] Separate Ids')
-    print(f'[9] Remove Duplicate IDs')
-    print(f'[W] Join Whatsapp Group ')
-    print(f'[F] Join Facebook Group ')
     print('')
     select = input('Select Menu>: ')
     if select =='1':
@@ -140,10 +133,10 @@ def sarfraz():
     elif select =='9':
        cutter()
     elif select =='W':
-        os.system('xdg-open https://chat.whatsapp.com/J3gpK8NYNQBHhEYnVxN4X7')
+        os.system('xdg-open 0542130376')
         pass
     elif select =='F':
-        os.system('xdg-open https://facebook.com/groups/3017062245271082/')
+        os.system('xdg-open ')
     else:
         print('\n Select valid option ... ')
         time.sleep(2)
