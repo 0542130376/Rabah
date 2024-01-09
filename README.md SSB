@@ -1,0 +1,4 @@
+rm -rf SSB
+git clone https://github.com/Dr-Rabah/SSB
+cd SSB
+python SSB.py
