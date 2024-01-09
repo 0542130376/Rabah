@@ -77,19 +77,19 @@ F = '\x1b[38;5;48m'
 Z = '\033[1;33m'
 head = {'Host': 'adsmanager.facebook.com', 'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"', 'viewport-width': '980'}
 logo =                                          """            
-\033[1;37m    ######      ######     ########  
-\033[1;37m   ##    ##    ##    ##    ##     ## 
-\033[1;37m   ##          ##          ##     ## 
-\033[1;37m    ######      ######     ########  
-\033[1;37m         ##          ##    ##     ## 
-\033[1;37m   ##    ##    ##    ##    ##     ## 
-\033[1;37m    ######      ######     ########  
-\033[1;37m------------------------------------------------
-\033[1;37m Owner   :            Muhammad Sarfraz
-\033[1;37m Facebook:            Muhammad Sarfraz
-\033[1;37m Github  :            Sarfraz-Ssb
-\033[1;37m Version :            19.8
-'https://www.facebook.com/profile.php?id=100049277964296033[1;37m------------------------------------------------ """
+\055[1;88m    ######      ######     ########  
+\055[1;88m   ##    ##    ##    ##    ##     ## 
+\055[1;88m   ##          ##          ##     ## 
+\055[1;88m    ######      ######     ########  
+\055[1;88m         ##          ##    ##     ## 
+\055[1;88m   ##    ##    ##    ##    ##     ## 
+\055[1;88m    ######      ######     ########  
+\055[1;88m------------------------------------------------
+\055[1;88m Owner   :            Rabah rabah 
+\055[1;88m Facebook:            rabah rabah 
+\055[1;88m Github  :            rabah -Ssb
+\055[1;88m Version :            19.9
+'https://www.facebook.com/profile.php?id=100049277964296[1;88m------------------------------------------------ """
 def clear():
     os.system("clear")
     print(logo)    
@@ -105,7 +105,7 @@ def result(OKs,cps):
         input("Press enter to back SSB Menu ")
         exit()
 
-def sarfraz():   
+def rabah():   
     os.system('clear')
     print(logo)
     print(f'[1] File Crack')
